@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/serif.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>O'zgaruvchi va Konstanta</h2>
+          <h6>O'zbek tilidagi zamonaviy c# darslar</h6>
+        </section>
+        <section>
+          <section>
+            <style>
+              .header {
+                padding-bottom: 5rem;
+              }
+              .header,
+              .pp {
+                text-align: left;
+              }
+            </style>
+            <h3 class="header">O'zgaruvchi / Konstanta</h3>
+            <p class="pp">
+              O'zgaruvchi: ma'lumot uchun ajratilagan xotira nomi
+            </p>
+            <p class="pp">
+              Konstanta: dastur ishlashi davomidagi o'zgarmas qiymat
+            </p>
+          </section>
+
+          <section class="header" data-markdown="./sonlar.md"></section>
+          <section class="header">
+            <h3>E'lon Qilish</h3>
+            <pre><code>int raqam;</code></pre>
+            <pre class="fragment"><code>int raqam = 12;</code></pre>
+            <pre class="fragment"><code>float  kasr		= 2.52f;
+char   belgi		= 'y';
+string gap 		= "Birinchi Gapim";
+bool   dasturlashYaxshi = true;</code></pre>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        hash: true,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/highlight/highlight.js" },
+          { src: "plugin/notes/notes.js", async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
