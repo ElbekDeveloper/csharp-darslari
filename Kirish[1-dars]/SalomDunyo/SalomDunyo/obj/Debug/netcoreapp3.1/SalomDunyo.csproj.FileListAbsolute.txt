@@ -1,0 +1,11 @@
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\bin\Debug\netcoreapp3.1\SalomDunyo.exe
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\bin\Debug\netcoreapp3.1\SalomDunyo.deps.json
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\bin\Debug\netcoreapp3.1\SalomDunyo.runtimeconfig.json
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\bin\Debug\netcoreapp3.1\SalomDunyo.runtimeconfig.dev.json
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\bin\Debug\netcoreapp3.1\SalomDunyo.dll
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\bin\Debug\netcoreapp3.1\SalomDunyo.pdb
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\obj\Debug\netcoreapp3.1\SalomDunyo.csprojAssemblyReference.cache
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\obj\Debug\netcoreapp3.1\SalomDunyo.AssemblyInfoInputs.cache
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\obj\Debug\netcoreapp3.1\SalomDunyo.AssemblyInfo.cs
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\obj\Debug\netcoreapp3.1\SalomDunyo.dll
+C:\Users\Elbek\Desktop\C# Darslari\SalomDunyo\SalomDunyo\obj\Debug\netcoreapp3.1\SalomDunyo.pdb
