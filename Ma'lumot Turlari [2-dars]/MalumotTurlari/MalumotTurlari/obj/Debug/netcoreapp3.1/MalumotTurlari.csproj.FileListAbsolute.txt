@@ -1,0 +1,11 @@
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\bin\Debug\netcoreapp3.1\MalumotTurlari.exe
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\bin\Debug\netcoreapp3.1\MalumotTurlari.deps.json
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\bin\Debug\netcoreapp3.1\MalumotTurlari.runtimeconfig.json
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\bin\Debug\netcoreapp3.1\MalumotTurlari.runtimeconfig.dev.json
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\bin\Debug\netcoreapp3.1\MalumotTurlari.dll
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\bin\Debug\netcoreapp3.1\MalumotTurlari.pdb
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\obj\Debug\netcoreapp3.1\MalumotTurlari.csprojAssemblyReference.cache
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\obj\Debug\netcoreapp3.1\MalumotTurlari.AssemblyInfoInputs.cache
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\obj\Debug\netcoreapp3.1\MalumotTurlari.AssemblyInfo.cs
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\obj\Debug\netcoreapp3.1\MalumotTurlari.dll
+D:\csharp-darslari\Ma'lumot Turlari [2-dars]\MalumotTurlari\MalumotTurlari\obj\Debug\netcoreapp3.1\MalumotTurlari.pdb
