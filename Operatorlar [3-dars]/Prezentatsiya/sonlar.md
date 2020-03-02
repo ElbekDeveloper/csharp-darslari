@@ -1,8 +1,8 @@
-### O'zgaruvchi turlari
-| Tur       | Kalit So'z                          |
-| --------- | ----------------------------------- |
-| Butun Son | <mark>byte, short, int, long</mark> |
-| Belgi     | <mark>char</mark>                   |
-| Gap       | <mark>string</mark>                 |
-| Kasr      | <mark>float, double, decimal</mark> |
-| Mantiqiy  | <mark>bool</mark>                   |
+### Operatorlar turlari
+| Tur       | Misol                        |
+| --------- | ---------------------------- |
+| Arifmetik | <mark>+, -,  *,  /...</mark> |
+| Qiyoslash | <mark>>, <...</mark>         |
+| Mantiqiy  | <mark>&&, !...</mark>        |
+| Tayinlash | <mark>=, +=, *=...</mark>    |
+| Boshqalar | <mark>...</mark>             |
