@@ -1,0 +1,6 @@
+D:\csharp-darslari\if shartlari [4-dars]\IfShartlari\IfShartlari\bin\Debug\IfShartlari.exe.config
+D:\csharp-darslari\if shartlari [4-dars]\IfShartlari\IfShartlari\bin\Debug\IfShartlari.exe
+D:\csharp-darslari\if shartlari [4-dars]\IfShartlari\IfShartlari\bin\Debug\IfShartlari.pdb
+D:\csharp-darslari\if shartlari [4-dars]\IfShartlari\IfShartlari\obj\Debug\IfShartlari.csprojAssemblyReference.cache
+D:\csharp-darslari\if shartlari [4-dars]\IfShartlari\IfShartlari\obj\Debug\IfShartlari.exe
+D:\csharp-darslari\if shartlari [4-dars]\IfShartlari\IfShartlari\obj\Debug\IfShartlari.pdb

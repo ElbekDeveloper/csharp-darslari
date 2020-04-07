@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>Operatorlar</title>
+    <title>"if" Shartlari</title>
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/reveal.css" />
@@ -31,7 +31,9 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h2>Operatorlar</h2>
+          <h2>
+            "If" Shartlari
+          </h2>
           <h6>O'zbek tilidagi zamonaviy c# darslar</h6>
         </section>
         <section>
@@ -45,47 +47,79 @@
                 text-align: left;
               }
             </style>
-            <h3 class="header">Operator nima?</h3>
+            <h3 class="header">"If" nima?</h3>
             <p class="pp">
-              Operator dastur faoliyati davomida o'zgaruvchilar ustida turli
-              ammalar bajarishga imkon beradi.
+              Kompyuterni <i>bool</i> o'zgaruvchilar yordamida qaror qabul
+              qilishiga ko'maklashuvchi kod parchasidir
             </p>
           </section>
+          <section>
+            <h3>Sintaksis</h3>
+            <pre><code>if (//shart)
+  {
+    //amal
+  }
+          </code></pre>
+            <pre>
+              <code>
+if (//shart)
+  {
+    //amal
+  }
+else
+  {
+    //teskari amal
+  }
+              </code>
+            </pre>
+          </section>
+          <section>
+            <pre>
+              <code>
+if (//shart)
+  {
+    //amal
+  } 
+else if(//boshqa shart)
+  {
+    //boshqa bir amal
+  }              
+else
+  {
+    //teskari amal
+  }
+              </code>
+            </pre>
+          </section>
+          <section>
+            <h3>
+              "Switch" nima?
+            </h3>
+            <p>Tanlov ko'p bo'lganida "switch"ni ishlatamiz</p>
+          </section>
 
-          <section class="header" data-markdown="./sonlar.md"></section>
-          <section><h3>Arifmetik Operatorlar</h3></section>
-          <section
-            class="header"
-            data-markdown="./operatorlar/arifmetic.md"
-          ></section>
           <section>
             <h3>
-              Qiyoslash Operatorlari
+              Sintaksis
             </h3>
+            <pre>
+              <code>
+switch(//tanlov)
+{
+  case birinchiTanlov:
+        //birinchi tanlovdagi amal shu yerda yoziladi
+        break;
+  case ikkinchiTanlov:
+        //ikkinchi tanlovdagi amal shu yerda yoziladi
+        break;
+  ...
+  default:
+        //hech nima tanlanmagan holdagi amal shu yerda yoziladi
+        break;
+}                
+              </code>
+            </pre>
           </section>
-          <section
-            class="header"
-            data-markdown="./operatorlar/qiyoslash.md"
-          ></section>
-          <section>
-            <h3>
-              Mantiqiy Operatorlar
-            </h3>
-          </section>
-          <section
-            class="header"
-            data-markdown="./operatorlar/mantiqiy.md"
-          ></section>
-          <section>
-            <h3>
-              Tayinlash Operatorlar
-            </h3>
-            <img src="./img/111.jpg" alt="assign" style="width: 23rem;" />
-          </section>
-          <section
-            class="header"
-            data-markdown="./operatorlar/tayinlash.md"
-          ></section>
         </section>
         <section><h2>Tamom</h2></section>
       </div>

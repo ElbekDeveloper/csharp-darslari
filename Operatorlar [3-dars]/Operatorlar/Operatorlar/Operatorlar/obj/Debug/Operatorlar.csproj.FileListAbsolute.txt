@@ -1,0 +1,6 @@
+D:\csharp-darslari\Operatorlar [3-dars]\Operatorlar\Operatorlar\Operatorlar\bin\Debug\Operatorlar.exe.config
+D:\csharp-darslari\Operatorlar [3-dars]\Operatorlar\Operatorlar\Operatorlar\bin\Debug\Operatorlar.exe
+D:\csharp-darslari\Operatorlar [3-dars]\Operatorlar\Operatorlar\Operatorlar\bin\Debug\Operatorlar.pdb
+D:\csharp-darslari\Operatorlar [3-dars]\Operatorlar\Operatorlar\Operatorlar\obj\Debug\Operatorlar.csprojAssemblyReference.cache
+D:\csharp-darslari\Operatorlar [3-dars]\Operatorlar\Operatorlar\Operatorlar\obj\Debug\Operatorlar.exe
+D:\csharp-darslari\Operatorlar [3-dars]\Operatorlar\Operatorlar\Operatorlar\obj\Debug\Operatorlar.pdb
