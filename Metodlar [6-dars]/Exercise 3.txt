@@ -1,0 +1,26 @@
+/* Method Overloading*/
+
+using System;
+
+namespace MethodOverloading
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      NamePets("Laika", "Jaika", "Naika");
+      NamePets("Laika", "Jaika");
+      NamePets();
+
+    }
+    static void NamePets(string nameOne, string nameTwo){
+      Console.WriteLine($"Your pets {nameOne} and {nameTwo} will be joining your voyage across space!");
+    }
+    static void NamePets(string nameOne, string nameTwo, string nameThree){
+      Console.WriteLine($"Your pets {nameOne}, {nameThree} and {nameTwo} will be joining your voyage across space!");
+    }
+    static void NamePets(){
+      Console.WriteLine("Aw, you have no spacefaring pets :(");
+    }
+  }
+}

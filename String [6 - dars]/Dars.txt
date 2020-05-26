@@ -1,0 +1,23 @@
+	    string ism;
+            string familiya;
+           
+            Console.WriteLine("Xayrli kun!\nIltimos, ismingizni kiriting:");
+            ism = Console.ReadLine();
+            Console.WriteLine("Endi familiyangizni kiritsangiz:");
+            familiya = Console.ReadLine();
+
+            //ekranga chiqaramiz
+            Console.WriteLine( "Wow, " + ism + " " + familiya);
+            Console.WriteLine($"Wow, {ism} {familiya}");
+
+
+            //metod
+            Console.WriteLine(ism.ToUpper());
+            Console.WriteLine(ism.ToLower());
+
+
+            string matn = "Gulla, Yashna, Vatanim!";
+            int belgilarSoni = matn.Length;
+            int indeksVatan = matn.IndexOf("Vatan");
+            string alohidaSuz = matn.Substring(indeksVatan);
+            string boshqaSoz = matn.Substring(indeksVatan, 7);

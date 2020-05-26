@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>String</title>
+    <title>Metodlar</title>
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/reveal.css" />
@@ -32,7 +32,7 @@
       <div class="slides">
         <section>
           <h2>
-            Satr (string) bilan ishlash!
+            Metodlar bilan ishlash!
           </h2>
           <h6>O'zbek tilidagi zamonaviy c# darslar</h6>
         </section>
@@ -47,78 +47,83 @@
                 text-align: left;
               }
             </style>
-            <h3 class="header">"If" nima?</h3>
+            <h3 class="header">Metod nima?</h3>
             <p class="pp">
-              Kompyuterni <i>bool</i> o'zgaruvchilar yordamida qaror qabul
-              qilishiga ko'maklashuvchi kod parchasidir
+              Kompyuterga berilgan buyruqlar jamlanmasi. Metodlar
+              <strong>qiymat qaytaradi</strong>
             </p>
           </section>
           <section>
-            <h3>Sintaksis</h3>
-            <pre><code>if (//shart)
-  {
-    //amal
-  }
-          </code></pre>
-            <pre>
-              <code>
-if (//shart)
-  {
-    //amal
-  }
-else
-  {
-    //teskari amal
-  }
-              </code>
-            </pre>
+            <h3>Ishlatish</h3>
+            <pre><code>
+Console.WriteLine("Meni chaqirishdi!");
+Console.ReadLine();
+            </code></pre>
           </section>
           <section>
+            <h3>String Metodlari</h3>
             <pre>
               <code>
-if (//shart)
-  {
-    //amal
-  } 
-else if(//boshqa shart)
-  {
-    //boshqa bir amal
-  }              
-else
-  {
-    //teskari amal
-  }
-              </code>
-            </pre>
-          </section>
-          <section>
-            <h3>
-              "Switch" nima?
-            </h3>
-            <p>Tanlov ko'p bo'lganida "switch"ni ishlatamiz</p>
-          </section>
+string amerikanchaIsm = "Bill Creamparebly";
 
-          <section>
-            <h3>
-              Sintaksis
-            </h3>
-            <pre>
-              <code>
-switch(//tanlov)
-{
-  case birinchiTanlov:
-        //birinchi tanlovdagi amal shu yerda yoziladi
-        break;
-  case ikkinchiTanlov:
-        //ikkinchi tanlovdagi amal shu yerda yoziladi
-        break;
-  ...
-  default:
-        //hech nima tanlanmagan holdagi amal shu yerda yoziladi
-        break;
-}                
+int probelPozitsiyasi = amerikanchaIsm.IndexOf(" ");
+
+string familiyasi = amerikanchaIsm.Substring(probelPozitsiyasi + 1);
+// "Creamparebly" familiyasi ga biriktirildi
               </code>
             </pre>
+          </section>
+          <section>
+            <h3>
+              Shaxsiy metodlarni yozish!
+            </h3>
+
+            <pre>
+              <code>
+static void MeningMetodimNomi()
+{
+  //Metod nomi PascalCase da!!!
+}
+              </code>
+            </pre>
+          </section>
+          <section>
+            <pre>
+              <code>
+using System;
+
+namespace Program
+{
+  class Program
+    {
+      static void Main(string[] args)
+        {
+          //Butun dastur metod sifatida 
+          //yuritilar ekanda!!!
+        }
+    }
+}
+              </code>
+            </pre>
+          </section>
+          <section>
+            <pre>
+                        <code>
+using System;
+
+namespace Program
+{
+  class Program
+    {
+      static void Main(string[] args)
+        {
+          //Metod ishlashi uchun uni chaqirish kerak
+          MeningMetodimNomi();
+        }
+    }
+}
+                        </code>
+                      </pre>
           </section>
         </section>
         <section><h2>Tamom</h2></section>

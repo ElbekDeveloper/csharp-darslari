@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>String</title>
+    <title>"Loop"</title>
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/reveal.css" />
@@ -32,7 +32,7 @@
       <div class="slides">
         <section>
           <h2>
-            Satr (string) bilan ishlash!
+            "Loop"
           </h2>
           <h6>O'zbek tilidagi zamonaviy c# darslar</h6>
         </section>
@@ -47,80 +47,43 @@
                 text-align: left;
               }
             </style>
-            <h3 class="header">"If" nima?</h3>
+            <h3 class="header">"Loop" nima?</h3>
             <p class="pp">
-              Kompyuterni <i>bool</i> o'zgaruvchilar yordamida qaror qabul
-              qilishiga ko'maklashuvchi kod parchasidir
+              Ma'lum bir amalni takror bajarish uchun "loop"dan foydalaning!
             </p>
           </section>
           <section>
-            <h3>Sintaksis</h3>
-            <pre><code>if (//shart)
-  {
-    //amal
-  }
+            <h3>While Loop</h3>
+            <pre><code>
+int counter = 0;
+while (counter < 10)
+{ 
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+}
           </code></pre>
             <pre>
               <code>
-if (//shart)
-  {
-    //amal
-  }
-else
-  {
-    //teskari amal
-  }
-              </code>
-            </pre>
-          </section>
-          <section>
-            <pre>
-              <code>
-if (//shart)
-  {
-    //amal
-  } 
-else if(//boshqa shart)
-  {
-    //boshqa bir amal
-  }              
-else
-  {
-    //teskari amal
-  }
-              </code>
-            </pre>
-          </section>
-          <section>
-            <h3>
-              "Switch" nima?
-            </h3>
-            <p>Tanlov ko'p bo'lganida "switch"ni ishlatamiz</p>
-          </section>
-
-          <section>
-            <h3>
-              Sintaksis
-            </h3>
-            <pre>
-              <code>
-switch(//tanlov)
+int counter = 0;
+do
 {
-  case birinchiTanlov:
-        //birinchi tanlovdagi amal shu yerda yoziladi
-        break;
-  case ikkinchiTanlov:
-        //ikkinchi tanlovdagi amal shu yerda yoziladi
-        break;
-  ...
-  default:
-        //hech nima tanlanmagan holdagi amal shu yerda yoziladi
-        break;
-}                
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+} while(counter < 10);
               </code>
             </pre>
           </section>
-        </section>
+          <section>
+            <h3>For Loop</h3>
+            <pre>
+              <code>
+for (int index = 0; index < 10; index++) {
+   Console.WriteLine($"Hello World! The index is {index}"); 
+  }
+              </code>
+            </pre>
+          </section>
+         
         <section><h2>Tamom</h2></section>
       </div>
     </div>
