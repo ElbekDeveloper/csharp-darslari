@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Array</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/serif.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>
+            Array bilan ishlash!
+          </h2>
+          <h6>O'zbek tilidagi zamonaviy c# darslar</h6>
+        </section>
+        <section>
+          <section>
+            <style>
+              .header {
+                padding-bottom: 5rem;
+              }
+              .header,
+              .pp {
+                text-align: left;
+              }
+            </style>
+            <h3 class="header">Array nima?</h3>
+            <p class="pp">
+              O'zgaruvchilardan tashkil topgan
+              <strong>jamlanma</strong>
+            </p>
+          </section>
+          <section>
+            <h3>Ishlatish</h3>
+            <pre><code>
+/*o'quvchilar ismlari ma'lumotlar bazasi*/
+string birinchi = "Eshonov Teshmat";
+string ikkinchi = "Xayriyev Nigmat";
+string uchinchi = "Nekov Bolta";
+string tortinchi = "Inoyatov Sevdi";
+...
+            </code></pre>
+          </section>
+          <section>
+            <h3>Ishlatish</h3>
+            <pre>
+              <code>
+/*Pastda butun son, string va double arraylari e'lon qilingan! */
+
+int[] x;
+string[] s;
+double[] d;
+              </code>
+            </pre>
+          </section>
+          <section>
+            <h4>
+              Ma'lumot biriktirish
+            </h4>
+            <pre>
+            <code>
+//1-usul
+ int[] plantHeights = { 3, 4, 6 }; 
+ 
+//2-usul var
+var plantHeights = new int[] { 3, 4, 6 }; 
+
+//3-usul 
+int[] plantHeights;
+plantHeights = new int[] { 3, 4, 6 }; 
+//plantHeights = { 3, 4, 6 }; => xato!
+
+//4-usul
+int[] plantHeights = new int[3]; 
+// plantHeights teng boladi [0, 0, 0]  
+          </code>
+            </pre>
+          </section>
+          <section>
+            <h3>Array Xususiyatlari</h3>
+            <pre>
+              <code>
+//Uzunlik
+int[] plantHeights = { 3, 4, 6 };
+
+// arrayLength teng boladi 3
+int arrayLength = plantHeights.Length
+
+//Indeks orqali jamlanma azosiga boglanish
+// plantTwoHeight teng boladi 4
+int plantTwoHeight = plantHeight[1];
+              </code>
+            </pre>
+          </section>
+          <section>
+            <h3>O'zgartirish kiritish</h3>
+            <pre>
+            <code>
+// 4-usulda Array elon qilamiz
+// plantHeight = [0, 0, 0] boladi
+int[] plantHeights = new int[3];
+
+// plantHeights [0, 0, 8] ga ozgaradi
+plantHeights[2] = 8;
+
+//Yana bir misol
+int[] plantLength = { 3, 4, 6 };
+
+// plantLength [3, 5, 6] boladi
+plantHeights[1] = 5;
+                        </code>
+                      </pre>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>Metodlar</h3>
+            <pre>
+              <code>
+//Sort() 
+int[] plantHeights = { 3, 6, 4, 1 };
+
+// plantHeights will be { 1, 3, 4, 6 }
+Array.Sort(plantHeights);
+
+//IndexOf()
+// returns 3
+Array.IndexOf(plantHeights, 6);
+
+//Find()
+//balandlik 5 dan katta bolgan birinchi osimlikni balandligini qaytaradi
+int firstHeight = Array.Find(plantHeights, balandlik => balandlik > 5);
+
+
+//Teskari qilish
+Array.Reverse(plantHeights);
+
+//Nusxa olish
+var summerStrutCopy = new string[8];
+Array.Copy(plantHeights, plantHeightsCopy, 8)
+
+
+              </code>
+            </pre>
+          </section>
+        </section>
+        <section><h2>Tamom</h2></section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        hash: true,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/highlight/highlight.js" },
+          { src: "plugin/notes/notes.js", async: true },
+        ],
+      });
+    </script>
+  </body>
+</html>
